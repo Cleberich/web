@@ -13,15 +13,15 @@ const Portada = () => {
           onMouseEnter={() => setEfecto(true)}
           className="portadaDesktop bg-[#101010] h-screen"
         >
-          {/* <video
+          <video
             className="w-full h-screen object-cover "
             playsInline
             loop
             muted
             autoPlay
             alt="All the devices"
-            src="/img/portadavide2.mp4"
-          /> */}
+            src="/img/fondodesktop.mp4"
+          />
         </div>
         <div className="portadaCelular w-full h-[650px] bg-[#000]">
           <video
@@ -31,7 +31,7 @@ const Portada = () => {
             muted
             autoPlay
             alt="All the devices"
-            src="/img/mobile.mp4"
+            src="/img/fondo.mp4"
           />
         </div>
 
@@ -40,7 +40,7 @@ const Portada = () => {
           <div class="contenedor">
             <ul className="textoAnimado">
               <br></br>
-              <li className="text-left text-[90px] text-white font-[900]">
+              <li className="text-center text-[90px] text-white font-[900]">
                 Tenemos la{" "}
                 <span className="font-extrabold rounded-lg  text-[#1C4ED8]  px-2 py-1 mb-5 bg-7">
                   actitud
@@ -55,7 +55,7 @@ const Portada = () => {
               <br className="md:hidden"></br>
               <br className="md:hidden"></br>
 
-              <li className="text-left text-[90px] text-white font-[900]   ">
+              <li className="text-center text-[90px] text-white font-[900]   ">
                 <span className="font-extrabold rounded-lg  text-[#1C4ED8]  px-2 py-1 mb-5 bg-7">
                   Creamos {""}
                 </span>{" "}
@@ -69,7 +69,7 @@ const Portada = () => {
               <br className="md:hidden"></br>
               <br className="md:hidden"></br>
               <br className="md:hidden"></br>
-              <li className="text-left text-[90px] text-white font-[900]   ">
+              <li className="text-center text-[90px] text-white font-[900]   ">
                 Un objetivo solo se logra con un{" "}
                 <span className="font-extrabold rounded-lg  text-[#1C4ED8]  px-2 py-1 mb-5 bg-7">
                   plan{" "}

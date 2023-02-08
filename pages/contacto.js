@@ -4,7 +4,7 @@ export default function contacto() {
   return (
     <Layout2>
       {" "}
-      <video
+      {/* <video
         className="w-full h-screen fixed top-0 object-cover -mt-20"
         playsInline
         loop
@@ -12,15 +12,28 @@ export default function contacto() {
         autoPlay
         alt="All the devices"
         src="/img/videoportada.mp4"
-      />
+      /> */}
+      <ul className="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
       <h1
-        className="text-white font-bold text-6xl relative top-24 pl-44"
+        className="text-white font-bold text-6xl relative top-24 pl-44 tituloContacto"
         id="contact"
       >
         Contacto
       </h1>
-      <main className=" h-[50vh] flex justify-center relative mt-24">
-        <div className="w-[40%] pl-24 p-7 rounded-xl  ">
+      <main className=" h-[50vh] flex justify-center relative mt-24 formularioContacto">
+        <div className="w-full md:w-[40%] md:pl-24 mx-auto rounded-xl  ">
           <form className="space-y-6" action="#">
             <div>
               <label
@@ -79,7 +92,7 @@ export default function contacto() {
             </button>
           </form>
         </div>
-        <div className="w-[50%] block pl-[17%] my-auto">
+        <div className="w-full md:w-[50%] block md:pl-[17%] my-auto">
           <h2 className="text-white font-light flex justify-left  my-1 text-sm gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"

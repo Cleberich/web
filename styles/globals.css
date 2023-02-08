@@ -19,6 +19,15 @@
         top: 0;
 }
 @media (max-width: 649px){
+        .tituloContacto{
+                display: none;
+        }
+        .formularioContacto{
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                margin: 120px auto;
+        }
         
         .waveDesktop{
                 display: none;
@@ -87,7 +96,9 @@
         .textoAnimado li{
                 font-size: 45px;
                 color:#fff;
-                padding-left: 10px;
+        }
+        .textoAnimado span{
+                color: #000;
         }
     .logoNav{
         width: 100px;
@@ -162,7 +173,7 @@
                 display: none;
         }
         .cajaIconos{
-                margin-top: 280px;
+                margin-top: 100px;
         }
         .botonAbrirMenu{
                 display: none;
@@ -823,3 +834,118 @@
       border-radius: 100px 0px 0px 100px ;
       
       }
+
+      @keyframes animate {
+        0%{
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+            border-radius: 0;
+        }
+        100%{
+            transform: translateY(-1000px) rotate(720deg);
+            opacity: 0;
+            border-radius: 50%;
+        }
+    }
+    
+    .background {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        background: #000000;
+        overflow: hidden;
+    }
+    .background li {
+        position: absolute;
+        display: block;
+        list-style: none;
+        width: 20px;
+        height: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        animation: animate 19s linear infinite;
+    }
+    
+    
+    
+    
+    .background li:nth-child(0) {
+        left: 61%;
+        width: 226px;
+        height: 226px;
+        bottom: -226px;
+        animation-delay: 1s;
+    }
+    .background li:nth-child(1) {
+        left: 43%;
+        width: 153px;
+        height: 153px;
+        bottom: -153px;
+        animation-delay: 2s;
+    }
+    .background li:nth-child(2) {
+        left: 26%;
+        width: 105px;
+        height: 105px;
+        bottom: -105px;
+        animation-delay: 4s;
+    }
+    .background li:nth-child(3) {
+        left: 45%;
+        width: 313px;
+        height: 313px;
+        bottom: -313px;
+        animation-delay: 7s;
+    }
+    .background li:nth-child(4) {
+        left: 52%;
+        width: 106px;
+        height: 106px;
+        bottom: -106px;
+        animation-delay: 3s;
+    }
+    .background li:nth-child(5) {
+        left: 73%;
+        width: 270px;
+        height: 270px;
+        bottom: -270px;
+        animation-delay: 17s;
+    }
+    .background li:nth-child(6) {
+        left: 25%;
+        width: 170px;
+        height: 170px;
+        bottom: -170px;
+        animation-delay: 13s;
+    }
+    .background li:nth-child(7) {
+        left: 12%;
+        width: 296px;
+        height: 296px;
+        bottom: -296px;
+        animation-delay: 15s;
+    }
+    .background li:nth-child(8) {
+        left: 22%;
+        width: 117px;
+        height: 117px;
+        bottom: -117px;
+        animation-delay: 34s;
+    }
+    .background li:nth-child(9) {
+        left: 70%;
+        width: 132px;
+        height: 132px;
+        bottom: -132px;
+        animation-delay: 39s;
+    }
+    .background li:nth-child(10) {
+        left: 1%;
+        width: 123px;
+        height: 123px;
+        bottom: -123px;
+        animation-delay: 28s;
+    }
