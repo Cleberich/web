@@ -3,11 +3,12 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Numeros from "./Numeros";
 import "swiper/css";
+import Link from "next/link";
 
 const Carrusel = () => {
   return (
     <>
-      <div className=" pl-5 md:px-24  pb-64 relative bg-transparent -mt-[480px] carruselTop">
+      <div className=" pl-5 md:px-24  pb-64 relative bg-transparent -mt-[150px] carruselTop">
         <h1 className="text-center text-white font-extrabold text-5xl mb-0 md:mb-24 ">
           Servicios
         </h1>
@@ -22,7 +23,7 @@ const Carrusel = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[200px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br>de marca
@@ -32,10 +33,18 @@ const Carrusel = () => {
                 {" "}
                 <img src="/img/marca.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="flex justify-center">
+                <Link
+                  className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
+                  href="/servicios"
+                >
+                  Más información
+                </Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[200px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Crecimiento de ecommerce
@@ -46,11 +55,19 @@ const Carrusel = () => {
                   src="/img/ecommerce.gif"
                   className="w-24 mx-auto relative"
                 />
+                <div className="flex justify-center">
+                  <Link
+                    className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
+                    href="/servicios"
+                  >
+                    Más información
+                  </Link>
+                </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[200px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Generación de leads y prospección
@@ -60,10 +77,18 @@ const Carrusel = () => {
                 {" "}
                 <img src="/img/leads.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="flex justify-center">
+                <Link
+                  className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
+                  href="/servicios"
+                >
+                  Más información
+                </Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[200px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Crecimiento en redes sociales
@@ -72,10 +97,18 @@ const Carrusel = () => {
               <div>
                 <img src="/img/redes.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="flex justify-center">
+                <Link
+                  className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
+                  href="/servicios"
+                >
+                  Más información
+                </Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[200px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br> web
@@ -85,10 +118,18 @@ const Carrusel = () => {
                 {" "}
                 <img src="/img/web.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="flex justify-center">
+                <Link
+                  className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
+                  href="/servicios"
+                >
+                  Más información
+                </Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[200px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Producción <br></br>audiovisual
@@ -98,17 +139,25 @@ const Carrusel = () => {
                 {" "}
                 <img src="/img/visual.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="flex justify-center">
+                <Link
+                  className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
+                  href="/servicios"
+                >
+                  Más información
+                </Link>
+              </div>
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="pt-12 -mt-12   pb-24 relative bg-black carruselBottom">
+      <div className="pt-12 -mt-12   pb-24 relative bg-transparent carruselBottom">
         <h1 className="text-center  text-white font-extrabold text-4xl mb-12 ">
           Servicios
         </h1>
         <Swiper
-          slidesPerView={"1.5"}
-          spaceBetween={15}
+          slidesPerView={"1"}
+          spaceBetween={5}
           pagination={{
             clickable: true,
           }}
@@ -117,7 +166,7 @@ const Carrusel = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[250px] h-[250px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br>de marca
@@ -130,10 +179,10 @@ const Carrusel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[250px] h-[250px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
-                  Crecimiento de ecommerce
+                  Crecimiento <br></br>de ecommerce
                 </h5>
               </a>
               <div>
@@ -145,7 +194,7 @@ const Carrusel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[250px] h-[250px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Generación de leads y prospección
@@ -158,7 +207,7 @@ const Carrusel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[250px] h-[250px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Crecimiento en redes sociales
@@ -170,7 +219,7 @@ const Carrusel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[250px] h-[250px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br> web
@@ -183,7 +232,7 @@ const Carrusel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[250px] h-[250px]">
+            <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Producción <br></br>audiovisual

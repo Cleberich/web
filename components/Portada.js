@@ -13,7 +13,7 @@ const Portada = () => {
           onMouseEnter={() => setEfecto(true)}
           className="portadaDesktop bg-[#101010] h-screen"
         >
-          <video
+          {/* <video
             className="w-full h-screen object-cover "
             playsInline
             loop
@@ -21,10 +21,19 @@ const Portada = () => {
             autoPlay
             alt="All the devices"
             src="/img/fondodesktop.mp4"
+          /> */}
+          <video
+            className="w-full h-screen object-cover "
+            playsInline
+            loop
+            muted
+            autoPlay
+            alt="All the devices"
+            src="/img/video.mp4"
           />
         </div>
         <div className="portadaCelular w-full h-[650px] bg-[#000]">
-          <video
+          {/* <video
             className="w-full h-[650px]"
             playsInline
             loop
@@ -32,6 +41,15 @@ const Portada = () => {
             autoPlay
             alt="All the devices"
             src="/img/fondo.mp4"
+          /> */}
+          <video
+            className="w-full h-[650px]"
+            playsInline
+            loop
+            muted
+            autoPlay
+            alt="All the devices"
+            src="/img/mobile.mp4"
           />
         </div>
 

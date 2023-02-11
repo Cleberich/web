@@ -4,15 +4,6 @@ export default function contacto() {
   return (
     <Layout2>
       {" "}
-      {/* <video
-        className="w-full h-screen fixed top-0 object-cover -mt-20"
-        playsInline
-        loop
-        muted
-        autoPlay
-        alt="All the devices"
-        src="/img/videoportada.mp4"
-      /> */}
       <ul className="background">
         <li></li>
         <li></li>

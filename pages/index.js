@@ -15,6 +15,7 @@ import Clientes from "../components/Clientes";
 import Fondo from "../components/Fondo";
 
 export default function Home() {
+  const [cambiarFondo, setCambiarFonto] = useState(false);
   const mover = () => {
     console.log("moviendo");
   };
@@ -29,18 +30,18 @@ export default function Home() {
       <main>
         <Nav />
         <Portada />
-        <div className="serviciosHome z-50 bg-black relative pt-24  "></div>
-        <Image
+        <div className="serviciosHome z-50 bg-transparent relative pt-24  "></div>
+        {/* <Image
           src="/img/wave.svg"
           width={1200}
           height={500}
-          className="w-full bg-white relative waveDesktop"
-        />
+          className="w-full bg-transparent relative waveDesktop"
+        /> */}
 
         <Carrusel />
-        <div className="flex justify-center gap-4 fraseDesktop relative bg-white py-44 -mt-[200px] h-screen fondoAnimado3">
+        <div className="flex justify-center gap-4 fraseDesktop  bg-transparent py-44 -mt-[200px] h-screen bg-7">
           <div className="w-full  ">
-            <h2 className="text-center text-[#1C4ED8] relative font-extrabold text-8xl mt-12 mb-32 swirl-in-fwd">
+            <h2 className="text-center text-[#fff]  font-extrabold text-7xl mt-12 mb-32 bg-7">
               "Lo que no podemos medir <br></br>{" "}
               <span className="text-white bg-[#1C4ED8] relative top-6">
                 no podemos mejorar"
@@ -48,28 +49,27 @@ export default function Home() {
             </h2>
           </div>
         </div>
-        <Image
-          src="/img/wave.svg"
-          width={1200}
-          height={500}
-          className="w-[100%] bg-white relative -mt-20 mb-5 pb-[162px] h-[40vh] waveMobile"
-        />
-        <div className="flex justify-center gap-4 fraseMobile relative bg-white py-44 -mt-[200px] h-[50vh] fondoAnimado3">
+
+        <div className="flex justify-center gap-4 fraseMobile px-3 relative py-44 -mt-[100px] h-[50vh] ">
           <div className="w-[95%] mx-auto ">
-            <h2 className="text-center text-[#1C4ED8] relative font-extrabold text-4xl -mt-20 mb-32 swirl-in-fwd">
-              "Lo que no podemos medir <br></br>{" "}
-              <span className="text-white bg-[#1C4ED8] relative top-0">
+            <h2 className="text-center text-[#fff] relative font-extrabold text-4xl  ">
+              "Lo que no<br></br> podemos medir <br></br>{" "}
+              <span className="text-[#1C4ED8]  relative top-0 ">
                 no podemos mejorar"
               </span>
             </h2>
           </div>
         </div>
-        <div className=" relative bg-white hover:bg-black  hover:text-white transition-colors">
+        <div
+          className=" relative md:bg-white bg-black md:hover:bg-transparent  text-white  md:text-black md:hover:text-white transition-colors"
+          onMouseOver={() => setCambiarFonto(true)}
+          onMouseOut={() => setCambiarFonto(false)}
+        >
           <h2 className="text-center  font-extrabold text-5xl pt-24 ">
             Clientes
           </h2>
-          {/* <Carrusel2 /> */}
-          <Clientes />
+          <Carrusel2 cambiarFondo={cambiarFondo} />
+          {/* <Clientes /> */}
         </div>
       </main>
       <Footer />

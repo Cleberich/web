@@ -17,8 +17,8 @@ const Nav = () => {
             <div className="">
               <Link href="/" className="flex items-center">
                 <img
-                  src="/img/logo_actitud.png"
-                  className="mr-3 -mt-3 logoNav"
+                  src="/img/logonuevo.png"
+                  className="mr-3 -mt-3 logoNav "
                   alt="Actitud Logo"
                 />
               </Link>
@@ -104,7 +104,7 @@ const Nav = () => {
               <div className="pl-12 pt-5">
                 <Link href="/" className="flex items-center">
                   <img
-                    src="/img/logo_actitud.png"
+                    src="/img/logonuevo.png"
                     className=" logoNav"
                     alt="Actitud Logo"
                   />

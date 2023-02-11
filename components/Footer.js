@@ -3,6 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineInstagram } from "react-icons/ai";
 import "animate.css";
 import { useEffect, useState } from "react";
+import Formulario from "./Formulario";
 
 const Footer = () => {
   const [mostrar, setMostrar] = useState(false);
@@ -12,11 +13,20 @@ const Footer = () => {
     }, 12000);
   });
   return (
-    <footer className="bg-[#1C4ED8] relative bottom-0 h-screen pt-44 ">
+    <footer className="md:bg-black bg-blue-600 relative bottom-0 h-[100vh] pt-10 ">
       {mostrar && (
-        <h2 className="text-3xl md:text-[90px] font-extrabold text-white text-center mx-auto mb-44 animate__animated animate__backInRight ">
-          contacto@actitud.com.uy
-        </h2>
+        <>
+          <h2 className="mx-1 md:mx-64 text-3xl md:text-[75px] font-extrabold text-white text-center md:leading-[80px] mb-12 animate__animated animate__backInRight ">
+            Coordina una asesoria <br></br>
+            <span className="text-white bg-black px-2 md:text-blue-600">
+              sin costo
+            </span>
+          </h2>
+          <div className=" mx-6">
+            {" "}
+            <Formulario />
+          </div>
+        </>
       )}
       <div className="flex justify-center gap-28 footer">
         <div className="">

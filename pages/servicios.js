@@ -27,10 +27,13 @@ export default function servicios() {
             muted
             autoPlay
             alt="All the devices"
-            src="/img/videoportada.mp4"
+            src="/img/video.mp4"
           />
           <section className="">
-            <h1 className="text-white font-bold text-4xl md:text-6xl absolute top-32 left-6 md:left-44">
+            <h1
+              id="servicios"
+              className="text-white font-bold text-4xl md:text-6xl absolute top-32 left-6 md:left-44"
+            >
               Servicios
             </h1>
 

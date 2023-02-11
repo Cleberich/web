@@ -39,7 +39,7 @@
                 display: none;
         }
         .footer{
-                flex-direction: column;
+                display: none;
         }
         .carruselTop{
                 display: none;
@@ -98,10 +98,10 @@
                 color:#fff;
         }
         .textoAnimado span{
-                color: #000;
+                color: #1C4ED8;
         }
     .logoNav{
-        width: 100px;
+        width: 60px;
         height: auto;
     }
     .cajaCard{
@@ -179,7 +179,7 @@
                 display: none;
         }
     .logoNav{
-        width: 100px;
+        width: 60px;
         height: auto;
     }
     .portadaCelular{
@@ -781,7 +781,7 @@
         color: #fff !important;
 
        
-   background-color: #fff;
+   background-color: transparent;
         position: relative;
       }
       .fondoAnimado3:before {
