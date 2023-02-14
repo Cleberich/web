@@ -32,7 +32,7 @@ const Portada = () => {
             src="/img/video.mp4"
           />
         </div>
-        <div className="portadaCelular w-full h-[650px] bg-[#000]">
+        <div className="portadaCelular  h-[705px]">
           {/* <video
             className="w-full h-[650px]"
             playsInline
@@ -43,7 +43,7 @@ const Portada = () => {
             src="/img/fondo.mp4"
           /> */}
           <video
-            className="w-full h-[650px]"
+            className="w-[100%] h-[705px] -mt-[5px]"
             playsInline
             loop
             muted

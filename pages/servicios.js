@@ -24,7 +24,7 @@ export default function servicios() {
           alt="All the devices"
           src="/img/video.mp4"
         />
-        <section className="hvr-shutter-in-vertical2">
+        <section className="md:hvr-shutter-in-vertical2">
           <h1
             id="servicios"
             className="text-white font-bold text-4xl md:text-6xl absolute top-32 left-6 md:left-44"
@@ -33,7 +33,7 @@ export default function servicios() {
           </h1>
 
           <ModalServicios />
-          <main className="p-5 md:p-24 flex bg-transparent flex-wrap gap-2 justify-center relative top-32">
+          <main className="p-5 md:p-24 flex bg-transparent flex-wrap gap-2 justify-center relative top-32 md:top-32">
             {" "}
             {servicios.map((service) => (
               <CardServicos key={service.id} service={service} />

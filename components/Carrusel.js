@@ -176,6 +176,9 @@ const Carrusel = () => {
                 {" "}
                 <img src="/img/marca.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
+                <Link href="/servicios">Ir a servicios</Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -191,6 +194,9 @@ const Carrusel = () => {
                   className="w-24 mx-auto relative"
                 />
               </div>
+              <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
+                <Link href="/servicios">Ir a servicios</Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -204,6 +210,9 @@ const Carrusel = () => {
                 {" "}
                 <img src="/img/leads.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
+                <Link href="/servicios">Ir a servicios</Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -215,6 +224,9 @@ const Carrusel = () => {
               </a>
               <div>
                 <img src="/img/redes.gif" className="w-24 mx-auto relative" />
+              </div>
+              <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
+                <Link href="/servicios">Ir a servicios</Link>
               </div>
             </div>
           </SwiperSlide>
@@ -229,6 +241,9 @@ const Carrusel = () => {
                 {" "}
                 <img src="/img/web.gif" className="w-24 mx-auto relative" />
               </div>
+              <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
+                <Link href="/servicios">Ir a servicios</Link>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -241,6 +256,9 @@ const Carrusel = () => {
               <div>
                 {" "}
                 <img src="/img/visual.gif" className="w-24 mx-auto relative" />
+              </div>
+              <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
+                <Link href="/servicios">Ir a servicios</Link>
               </div>
             </div>
           </SwiperSlide>
