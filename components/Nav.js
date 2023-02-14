@@ -147,7 +147,6 @@ const Nav = () => {
               <ul className="flex flex-col p-4  border-gray-100 rounded-lg bg-transparent  mt-0 text-sm font-medium border-0">
                 <li>
                   <Link
-                    onClick={() => setMenu(!menu)}
                     href="/"
                     className=" py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2 hvr-sweep-to-right "
                   >
@@ -156,24 +155,15 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link
-                    onClick={() => setMenu(!menu)}
                     href="/nosotros"
                     className="block  py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2 hvr-sweep-to-right "
                   >
                     About
                   </Link>
                 </li>
-                {/* <li>
-                  <Link
-                    href="/works"
-                    className="block  py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2 hvr-sweep-to-right "
-                  >
-                    Work
-                  </Link>
-                </li> */}
+
                 <li>
                   <Link
-                    onClick={() => setMenu(!menu)}
                     href="/servicios"
                     className="block py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2  hvr-sweep-to-right"
                   >
@@ -182,7 +172,6 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link
-                    onClick={() => setMenu(!menu)}
                     href="/contacto"
                     className="block py-2 px-3 pr-4 text-7xl font-[900] linkMenu my-2 text-white bg-blue-700 hover:bg-white hover:text-blue-700 rounded-lg  heartbeat"
                   >
