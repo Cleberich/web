@@ -32,7 +32,6 @@ export default function servicios() {
             Servicios
           </h1>
 
-          <ModalServicios />
           <main className="p-5 md:p-24 flex bg-transparent flex-wrap gap-2 justify-center relative top-32 md:top-32">
             {" "}
             {servicios.map((service) => (

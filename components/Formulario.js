@@ -3,7 +3,7 @@ import { addDoc, collection } from "firebase/firestore";
 import { db } from "../services/firebase";
 import SendMail from "./SendMail";
 
-const Formulario = () => {
+const Formulario = ({ estilos }) => {
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
   const [msg, setMsg] = useState("");
@@ -11,6 +11,7 @@ const Formulario = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     try {
       const datos = { nombre, telefono, msg };
       const da = collection(db, "prospectos");
@@ -89,10 +90,7 @@ const Formulario = () => {
               required
             />
           </div>
-          <button
-            type="submit"
-            className="w-full text-white bg-black md:bg-blue-600 hover:bg-gray-800 hover:md:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
-          >
+          <button type="submit" className={estilos}>
             Enviar
           </button>
         </form>

@@ -101,7 +101,7 @@ const Nav = () => {
             }
           >
             <div className="flex justify-between">
-              <div className="pl-12 pt-5">
+              <div className="pl-28">
                 <Link href="/" className="flex items-center">
                   <img
                     src="/img/logonuevo.png"
@@ -114,7 +114,7 @@ const Nav = () => {
                 {" "}
                 <button
                   type="button"
-                  className="block p-2 mt-12 mr-12 text-white bg-black rounded-full "
+                  className="block p-2 mt-4 mr-28 text-white bg-black rounded-full "
                   onClick={() => setMenu(false)}
                 >
                   <svg
