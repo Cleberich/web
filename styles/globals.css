@@ -19,6 +19,34 @@
         top: 0;
 }
 @media (max-width: 649px){
+        .fondoAnimado {
+                color: #1C4ED8 !important;
+        
+               
+           background-color: #000;
+                position: relative;
+              }
+              .fondoAnimado:before {
+                content:"";
+                position: absolute;
+                top: -60px;
+                left: 0px;
+                width: 0px;
+                height: 100%;
+                background:#1C4ED8;
+                height: 200vh;
+        
+               
+                transition: all .5s ease-in-out;
+              }
+              .fondoAnimado:hover:before {
+                position: absolute;
+                top: -60px;
+              width: 100%;
+              padding: 50px 0px;
+              
+              }
+
         .tituloContacto{
                 display: none;
         }
@@ -163,6 +191,33 @@
    
 }
 @media (min-width: 650px){
+        .fondoAnimado {
+                color: #1C4ED8 !important;
+        
+               
+           background-color: #000;
+                position: relative;
+              }
+              .fondoAnimado:before {
+                content:"";
+                position: absolute;
+                top: -60px;
+                left: 0px;
+                width: 0px;
+                height: 100%;
+                background:#1C4ED8;
+                height: 100vh;
+        
+               
+                transition: all .5s ease-in-out;
+              }
+              .fondoAnimado:hover:before {
+                position: absolute;
+                top: -60px;
+              width: 100%;
+              padding: 50px 0px;
+              
+              }
         .waveMobile{
                 display: none;
         }
@@ -712,33 +767,7 @@
      
       }
 
-      .fondoAnimado {
-        color: #1C4ED8 !important;
-
-       
-   background-color: #000;
-        position: relative;
-      }
-      .fondoAnimado:before {
-        content:"";
-        position: absolute;
-        top: -60px;
-        left: 0px;
-        width: 0px;
-        height: 100%;
-        background:#1C4ED8;
-        height: 100vh;
-
-       
-        transition: all .5s ease-in-out;
-      }
-      .fondoAnimado:hover:before {
-        position: absolute;
-        top: -60px;
-      width: 100%;
-      padding: 50px 0px;
       
-      }
       .fondoAnimado2 {
 
        

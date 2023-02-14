@@ -4,7 +4,7 @@ import { db } from "../services/firebase";
 export default function SendMail(nombre, telefono, msg) {
   const collectionRef = collection(db, "email");
   const emailContent = {
-    to: ["pruebasreactjs@gmail.com"],
+    to: ["nahuel.geille@actitudigital.com"],
     message: {
       subject: "PROSPECTO DESDE WEB",
       text: `Nuevo mensaje: `,
