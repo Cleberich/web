@@ -34,7 +34,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/marca.gif"
+                  src="/img/marca.webp"
                   className="w-24 mx-auto relative"
                   alt="creacion de marca"
                 ></Image>
@@ -60,7 +60,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/ecommerce.gif"
+                  src="/img/ecommerce.webp"
                   className="w-24 mx-auto relative"
                   alt="ecommerce"
                 ></Image>
@@ -87,7 +87,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/leads.gif"
+                  src="/img/leads.webp"
                   className="w-24 mx-auto relative"
                   alt="leads"
                 ></Image>
@@ -113,7 +113,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/redes.gif"
+                  src="/img/redes.webp"
                   className="w-24 mx-auto relative"
                   alt="redes sociales"
                 ></Image>
@@ -140,7 +140,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/web.gif"
+                  src="/img/web.webp"
                   className="w-24 mx-auto relative"
                   alt="diseño web"
                 ></Image>
@@ -167,7 +167,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/visual.gif"
+                  src="/img/visual.webp"
                   className="w-24 mx-auto relative"
                   alt="audiovisual"
                 ></Image>
@@ -210,7 +210,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/marca.gif"
+                  src="/img/marca.webp"
                   className="w-24 mx-auto relative"
                   alt="marca"
                 ></Image>
@@ -231,7 +231,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/ecommerce.gif"
+                  src="/img/ecommerce.webp"
                   className="w-24 mx-auto relative"
                   alt="ecommerce"
                 ></Image>
@@ -253,7 +253,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/leads.gif"
+                  src="/img/leads.webp"
                   className="w-24 mx-auto relative"
                   alt="leads"
                 ></Image>
@@ -274,7 +274,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/redes.gif"
+                  src="/img/redes.webp"
                   className="w-24 mx-auto relative"
                   alt="redes sociales"
                 ></Image>
@@ -296,7 +296,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/web.gif"
+                  src="/img/web.webp"
                   className="w-24 mx-auto relative"
                   alt="diseño web"
                 ></Image>
@@ -318,7 +318,7 @@ const Carrusel = () => {
                 <Image
                   width={200}
                   height={200}
-                  src="/img/visual.gif"
+                  src="/img/visual.webp"
                   className="w-24 mx-auto relative"
                   alt="audiovisual"
                 ></Image>
