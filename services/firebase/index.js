@@ -2,13 +2,12 @@ import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAF83FEXt1ek1qjSBZgtQEr_WSn4Pn6WLw",
-  authDomain: "paito-601ff.firebaseapp.com",
-  projectId: "paito-601ff",
-  storageBucket: "paito-601ff.appspot.com",
-  messagingSenderId: "739439353671",
-  appId: "1:739439353671:web:8fe8e7fb1a30930118f662",
-  measurementId: "G-EG7L8GJJ23",
+  apiKey: "AIzaSyB2P3RYSPjA-50LrwE03bWKaB22nLWxF2k",
+  authDomain: "actituddigital-c6d30.firebaseapp.com",
+  projectId: "actituddigital-c6d30",
+  storageBucket: "actituddigital-c6d30.appspot.com",
+  messagingSenderId: "97964957776",
+  appId: "1:97964957776:web:d5b105a89c02658d767155",
 };
 
 const app = initializeApp(firebaseConfig);
