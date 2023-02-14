@@ -37,7 +37,7 @@ const Portada = () => {
 
         <div className="relative bg-transparent mt-[300px] cajaTitulo  ">
           {" "}
-          <div class="contenedor">
+          <div className="contenedor">
             <ul className="textoAnimado">
               <br></br>
               <li className="text-center text-[90px] text-white font-[900]">

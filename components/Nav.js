@@ -31,6 +31,7 @@ const Nav = () => {
               <button
                 type="button"
                 className="block botonAbrirMenu py-2 px-3 pr-4 text-white bg-transparent rounded-lg  "
+                alt="abrir menu"
                 onClick={() => abrir()}
               >
                 <svg
@@ -93,7 +94,7 @@ const Nav = () => {
       {menu && (
         <div
           id="authentication-modal"
-          tabindex="-1"
+          tabIndex="-1"
           aria-hidden="true"
           className="fixed top-0 left-0 right-0 z-[1000] visible w-full overflow-x-hidden overflow-y-auto inset-0 h-modal h-full"
         >

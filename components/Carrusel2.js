@@ -23,6 +23,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/1negro.webp" : "/img/logos/1.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
@@ -32,6 +33,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/2negro.webp" : "/img/logos/2.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
@@ -41,6 +43,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/3negro.webp" : "/img/logos/3.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
@@ -50,6 +53,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/4negro.webp" : "/img/logos/4.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
@@ -59,6 +63,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/5negro.webp" : "/img/logos/5.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
@@ -68,6 +73,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/6negro.webp" : "/img/logos/6.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
@@ -77,6 +83,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/7negro.webp" : "/img/logos/7.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
@@ -86,6 +93,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
                 src={
                   cambiarFondo ? "/img/logos/8negro.webp" : "/img/logos/8.webp"
                 }
+                alt="logos de clientes"
               />
             </div>
           </SwiperSlide>
