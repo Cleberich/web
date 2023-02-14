@@ -25,9 +25,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br>de marca
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}
@@ -52,9 +52,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Crecimiento de ecommerce
-                </h5>
+                </h2>
               </a>
               <div>
                 <Image
@@ -78,9 +78,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Generación de leads y prospección
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}
@@ -105,9 +105,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Crecimiento en redes sociales
-                </h5>
+                </h2>
               </a>
               <div>
                 <Image
@@ -131,9 +131,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br> web
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}
@@ -158,9 +158,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[300px] h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Producción <br></br>audiovisual
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}
@@ -201,9 +201,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br>de marca
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}
@@ -223,9 +223,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Crecimiento <br></br>de ecommerce
-                </h5>
+                </h2>
               </a>
               <div>
                 <Image
@@ -244,9 +244,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Generación de leads y prospección
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}
@@ -266,9 +266,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Crecimiento en redes sociales
-                </h5>
+                </h2>
               </a>
               <div>
                 <Image
@@ -287,9 +287,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Desarrollo <br></br> web
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}
@@ -309,9 +309,9 @@ const Carrusel = () => {
           <SwiperSlide>
             <div className="max-w-sm p-6 bg-[#121212] shadow-xl  rounded-lg w-[90%] mx-auto h-[250px]">
               <a href="#">
-                <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
+                <h2 className="mb-2 text-2xl text-center font-bold tracking-tight text-white">
                   Producción <br></br>audiovisual
-                </h5>
+                </h2>
               </a>
               <div>
                 {" "}

@@ -122,7 +122,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="animate-pulse">
-              <img src={"/img/logos/3negro.webp"} />
+              <img src={"/img/logos/3negro.webp"} alt="logos de clientes" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
