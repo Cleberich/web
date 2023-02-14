@@ -1,6 +1,5 @@
 import CardServicos from "../components/CardServicos";
 import Layout2 from "../components/Layout2";
-import ModalServicios from "../components/ModalServicios";
 import useActitud from "../hooks/useActitud";
 import { useState, useEffect } from "react";
 import "animate.css";

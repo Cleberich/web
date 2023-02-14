@@ -12,7 +12,7 @@ const Footer = () => {
     }, 100);
   });
   return (
-    <footer className="md:bg-black bg-blue-600 relative bottom-0 h-[100vh] pt-10 ">
+    <footer className="md:bg-black bg-blue-600 relative bottom-0 h-[80vh] md:h-[100vh] pt-10 ">
       {mostrar && (
         <>
           <h2 className="mx-1 md:mx-64 text-3xl md:text-[75px] font-extrabold text-white text-center md:leading-[80px] mb-12  ">
@@ -40,9 +40,8 @@ const Footer = () => {
             alt="Actitud Logo"
           />
           <p className="text-white  -mt-12 font-light text-xs">
-            contacto@actitud.com
+            contacto@actitudigital.com
           </p>
-          <p className="text-white  mt-2 font-light text-xs">+598 92 997 991</p>
           <div className="flex justify-left mt-2"></div>
         </div>
         <div className="mt-20">
@@ -50,9 +49,6 @@ const Footer = () => {
           <h2 className="text-white   text-md font-bold">Horarios</h2>{" "}
           <p className="text-white   mt-2 font-light text-xs">
             Lunes a viernes 08-18hs
-          </p>
-          <p className="text-white   mt-2 font-light text-xs">
-            Sábados 08-13hs
           </p>
         </div>
         <div className="mt-20">

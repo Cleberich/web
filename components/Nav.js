@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Image from "next/image";
 
 const Nav = () => {
   const [menu, setMenu] = useState(false);
@@ -16,9 +17,11 @@ const Nav = () => {
           <div className="container flex flex-wrap items-center justify-between mx-auto ">
             <div className="">
               <Link href="/" className="flex items-center">
-                <img
-                  src="/img/logonuevo.png"
-                  className="mr-3 -mt-3 logoNav "
+                <Image
+                  width={100}
+                  height={100}
+                  src="/img/logonuevo.webp"
+                  className="mt-3 md:mt-0 logoNav "
                   alt="Actitud Logo"
                 />
               </Link>
@@ -101,10 +104,12 @@ const Nav = () => {
             }
           >
             <div className="flex justify-between">
-              <div className="pl-28">
+              <div className="pl-3 mt-3 md:mt-3 md:pl-28">
                 <Link href="/" className="flex items-center">
-                  <img
-                    src="/img/logonuevo.png"
+                  <Image
+                    width={100}
+                    height={100}
+                    src="/img/logonuevo.webp"
                     className=" logoNav"
                     alt="Actitud Logo"
                   />
@@ -114,7 +119,7 @@ const Nav = () => {
                 {" "}
                 <button
                   type="button"
-                  className="block p-2 mt-4 mr-28 text-white bg-black rounded-full "
+                  className="block p-2 mt-4 md:mt-4 mr-3 md:mr-28 text-white bg-black rounded-full "
                   onClick={() => setMenu(false)}
                 >
                   <svg
@@ -141,22 +146,33 @@ const Nav = () => {
               <ul className="flex flex-col p-4  border-gray-100 rounded-lg bg-transparent  mt-0 text-sm font-medium border-0">
                 <li>
                   <Link
+                    onClick={() => setMenu(!menu)}
+                    href="/"
+                    className=" py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2 hvr-sweep-to-right "
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={() => setMenu(!menu)}
                     href="/nosotros"
                     className="block  py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2 hvr-sweep-to-right "
                   >
                     About
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/works"
                     className="block  py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2 hvr-sweep-to-right "
                   >
                     Work
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
+                    onClick={() => setMenu(!menu)}
                     href="/servicios"
                     className="block py-2 text-7xl font-[900] linkMenu my-2 text-white  rounded px-2  hvr-sweep-to-right"
                   >
@@ -165,6 +181,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link
+                    onClick={() => setMenu(!menu)}
                     href="/contacto"
                     className="block py-2 px-3 pr-4 text-7xl font-[900] linkMenu my-2 text-white bg-blue-700 hover:bg-white hover:text-blue-700 rounded-lg  heartbeat"
                   >

@@ -13,15 +13,6 @@ const Portada = () => {
           onMouseEnter={() => setEfecto(true)}
           className="portadaDesktop bg-[#101010] h-screen"
         >
-          {/* <video
-            className="w-full h-screen object-cover "
-            playsInline
-            loop
-            muted
-            autoPlay
-            alt="All the devices"
-            src="/img/fondodesktop.mp4"
-          /> */}
           <video
             className="w-full h-screen object-cover "
             playsInline
@@ -33,15 +24,6 @@ const Portada = () => {
           />
         </div>
         <div className="portadaCelular  h-[705px]">
-          {/* <video
-            className="w-full h-[650px]"
-            playsInline
-            loop
-            muted
-            autoPlay
-            alt="All the devices"
-            src="/img/fondo.mp4"
-          /> */}
           <video
             className="w-[100%] h-[705px] -mt-[5px]"
             playsInline
@@ -97,27 +79,9 @@ const Portada = () => {
               </li>
             </ul>
           </div>
-          {/* <div className="flex gap-2 justify-center mt-5 md:hidden">
-            {" "}
-            <button
-              type="button"
-              className="text-white  hover:bg-white hover:text-black focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 botonSobreNosotros"
-            >
-              Sobre nosotros
-            </button>
-            <Modal />
-          </div> */}
         </div>
       </div>
-      <div className="mt-[380px] relative wave">
-        {/* <Image
-          src="/img/wave.svg"
-          width={1200}
-          height={100}
-          alt="wave"
-          className="w-full -mt-12"
-        /> */}
-      </div>
+      <div className="mt-[380px] relative wave"></div>
 
       <div className="flex justify-center">
         <RxDoubleArrowDown className="text-[#fff] -mt-[150px] relative text-5xl shake-vertical " />

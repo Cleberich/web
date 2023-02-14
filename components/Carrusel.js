@@ -31,14 +31,18 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/marca.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/marca.gif"
+                  className="w-24 mx-auto relative"
+                  alt="creacion de marca"
+                />
               </div>
               <div className="flex justify-center">
                 <Link
                   className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
                   href="/servicios"
                 >
-                  Más información
+                  Ir a servicios
                 </Link>
               </div>
             </div>
@@ -54,13 +58,14 @@ const Carrusel = () => {
                 <img
                   src="/img/ecommerce.gif"
                   className="w-24 mx-auto relative"
+                  alt="ecommerce"
                 />
                 <div className="flex justify-center">
                   <Link
                     className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
                     href="/servicios"
                   >
-                    Más información
+                    Ir a servicios
                   </Link>
                 </div>
               </div>
@@ -75,14 +80,18 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/leads.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/leads.gif"
+                  className="w-24 mx-auto relative"
+                  alt="leads"
+                />
               </div>
               <div className="flex justify-center">
                 <Link
                   className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
                   href="/servicios"
                 >
-                  Más información
+                  Ir a servicios
                 </Link>
               </div>
             </div>
@@ -95,14 +104,18 @@ const Carrusel = () => {
                 </h5>
               </a>
               <div>
-                <img src="/img/redes.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/redes.gif"
+                  className="w-24 mx-auto relative"
+                  alt="redes sociales"
+                />
               </div>
               <div className="flex justify-center">
                 <Link
                   className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
                   href="/servicios"
                 >
-                  Más información
+                  Ir a servicios
                 </Link>
               </div>
             </div>
@@ -116,14 +129,18 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/web.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/web.gif"
+                  className="w-24 mx-auto relative"
+                  alt="diseño web"
+                />
               </div>
               <div className="flex justify-center">
                 <Link
                   className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
                   href="/servicios"
                 >
-                  Más información
+                  Ir a servicios
                 </Link>
               </div>
             </div>
@@ -137,14 +154,18 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/visual.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/visual.gif"
+                  className="w-24 mx-auto relative"
+                  alt="audiovisual"
+                />
               </div>
               <div className="flex justify-center">
                 <Link
                   className="text-white bg-blue-600 w-full text-center py-2 mt-2 hover:bg-blue-800 rounded-xl"
                   href="/servicios"
                 >
-                  Más información
+                  Ir a servicios
                 </Link>
               </div>
             </div>
@@ -174,7 +195,11 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/marca.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/marca.gif"
+                  className="w-24 mx-auto relative"
+                  alt="marca"
+                />
               </div>
               <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
                 <Link href="/servicios">Ir a servicios</Link>
@@ -192,6 +217,7 @@ const Carrusel = () => {
                 <img
                   src="/img/ecommerce.gif"
                   className="w-24 mx-auto relative"
+                  alt="ecommerce"
                 />
               </div>
               <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
@@ -208,7 +234,11 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/leads.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/leads.gif"
+                  className="w-24 mx-auto relative"
+                  alt="leads"
+                />
               </div>
               <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
                 <Link href="/servicios">Ir a servicios</Link>
@@ -223,7 +253,11 @@ const Carrusel = () => {
                 </h5>
               </a>
               <div>
-                <img src="/img/redes.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/redes.gif"
+                  className="w-24 mx-auto relative"
+                  alt="redes sociales"
+                />
               </div>
               <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
                 <Link href="/servicios">Ir a servicios</Link>
@@ -239,7 +273,11 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/web.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/web.gif"
+                  className="w-24 mx-auto relative"
+                  alt="diseño web"
+                />
               </div>
               <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
                 <Link href="/servicios">Ir a servicios</Link>
@@ -255,7 +293,11 @@ const Carrusel = () => {
               </a>
               <div>
                 {" "}
-                <img src="/img/visual.gif" className="w-24 mx-auto relative" />
+                <img
+                  src="/img/visual.gif"
+                  className="w-24 mx-auto relative"
+                  alt="audiovisual"
+                />
               </div>
               <div className="bg-blue-600 w-full py-2 rounded-lg text-center text-white">
                 <Link href="/servicios">Ir a servicios</Link>

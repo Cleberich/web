@@ -40,7 +40,7 @@ const Formulario = ({ estilos }) => {
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
             <label
-              for="text"
+              htmlFor="nombre"
               className="block mb-2 text-sm font-medium  text-white"
             >
               Tu nombre
@@ -48,7 +48,6 @@ const Formulario = ({ estilos }) => {
             <input
               onChange={(e) => setNombre(e.target.value)}
               type="text"
-              name="password"
               id="nombre"
               placeholder="Juan Díaz"
               className="bg-gray-50 border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  text-black"
@@ -57,7 +56,7 @@ const Formulario = ({ estilos }) => {
           </div>
           <div>
             <label
-              for="tel"
+              htmlFor="tel"
               className="block mb-2 text-sm font-medium  text-white"
             >
               Teléfono
@@ -65,7 +64,6 @@ const Formulario = ({ estilos }) => {
             <input
               onChange={(e) => setTelefono(e.target.value)}
               type="tel"
-              name="password"
               id="tel"
               placeholder="091898654"
               className="bg-gray-50 border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  text-black"
@@ -75,7 +73,7 @@ const Formulario = ({ estilos }) => {
 
           <div>
             <label
-              for="email"
+              htmlFor="email"
               className="block mb-2 text-sm font-medium  text-white"
             >
               Cuentanos sobre tu proyecto
@@ -83,7 +81,6 @@ const Formulario = ({ estilos }) => {
             <textarea
               onChange={(e) => setMsg(e.target.value)}
               type="text"
-              name="email"
               id="email"
               className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  text-black"
               placeholder="Tengo una tienda y quiero aumentar mis ventas..."
