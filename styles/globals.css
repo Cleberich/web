@@ -180,7 +180,7 @@
 .textoAnimado {
 	list-style: none;
 	padding-left: 10px;
-	animation: cambiar 9s infinite;
+	animation: cambiar 12s infinite;
 }
 
 .textoAnimado, p {
