@@ -27,7 +27,6 @@ const Portada = () => {
           <video
             className="w-[100%] h-[705px] -mt-[5px]"
             playsInline
-            controls
             loop
             muted
             autoPlay

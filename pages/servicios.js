@@ -17,6 +17,7 @@ export default function servicios() {
         <video
           className="w-full  fixed top-0 object-cover "
           playsInline
+          controls
           loop
           muted
           autoPlay
