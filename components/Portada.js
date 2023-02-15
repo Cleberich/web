@@ -24,7 +24,7 @@ const Portada = () => {
           />
         </div>
         <div className="portadaCelular  h-[705px]">
-          {/* <video
+          <video
             className="w-[100%] h-[705px] -mt-[5px]"
             playsInline
             loop
@@ -32,11 +32,6 @@ const Portada = () => {
             autoPlay
             alt="All the devices"
             src="/img/mobile.mp4"
-          /> */}
-          <img
-            className="w-[100%] h-[705px] -mt-[5px]"
-            alt="All the devices"
-            src="/img/mobile.gif"
           />
         </div>
         {/* <div className="portadaNahuel  h-[705px]">
