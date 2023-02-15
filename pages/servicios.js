@@ -22,6 +22,7 @@ export default function servicios() {
           autoPlay
           alt="All the devices"
           src="/img/video.mp4"
+          type="video/mp4"
         />
 
         <script src="https://player.vimeo.com/api/player.js"></script>
