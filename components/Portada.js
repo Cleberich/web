@@ -26,7 +26,8 @@ const Portada = () => {
         <div className="portadaCelular  h-[705px]">
           <video
             className="w-[100%] h-[705px] -mt-[5px]"
-            playsInLine
+            playsInline
+            controls
             loop
             muted
             autoPlay
