@@ -31,9 +31,20 @@ const Portada = () => {
             muted
             autoPlay
             alt="All the devices"
-            src="/img/mobile.mp4"
+            src="/img/mobile.gif"
           />
         </div>
+        {/* <div className="portadaNahuel  h-[705px]">
+          <video
+            className="w-[100%] h-[705px] -mt-[5px]"
+            playsInline
+            loop
+            muted
+            autoPlay
+            alt="All the devices"
+            src="/img/mobile.gif"
+          />
+        </div> */}
 
         <div className="relative bg-transparent mt-[300px] cajaTitulo  ">
           {" "}
