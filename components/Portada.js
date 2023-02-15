@@ -29,6 +29,7 @@ const Portada = () => {
             playsInline
             loop
             muted
+            preload
             autoPlay
             alt="All the devices"
             src="/img/mobile.mp4"
