@@ -26,14 +26,12 @@ const Portada = () => {
         <div className="portadaCelular  h-[705px]">
           <video
             className="w-[100%] h-[705px] -mt-[5px]"
-            width={100}
-            height={100}
-            playsInline={true}
+            playsInLine
             loop
             muted
-            autoPlay={true}
+            autoPlay
             alt="All the devices"
-            source="/img/mobile.mp4"
+            src="/img/mobile.mp4"
           ></video>
         </div>
 
