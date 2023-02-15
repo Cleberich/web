@@ -17,13 +17,14 @@ export default function servicios() {
         <video
           className="w-full  fixed top-0 object-cover "
           playsInline
-          controls
           loop
           muted
           autoPlay
           alt="All the devices"
           src="/img/video.mp4"
         />
+
+        <script src="https://player.vimeo.com/api/player.js"></script>
         <section className="md:hvr-shutter-in-vertical2">
           <h1
             id="servicios"
