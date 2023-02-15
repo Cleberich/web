@@ -32,7 +32,7 @@ const Portada = () => {
             autoPlay
             alt="All the devices"
             src="/img/mobile.mp4"
-          ></video>
+          />
         </div>
 
         <div className="relative bg-transparent mt-[300px] cajaTitulo  ">
