@@ -44,7 +44,7 @@ const Portada = () => {
           />
         </div> */}
 
-        <div className="relative bg-transparent mt-[150px] cajaTitulo  ">
+        <div className="relative bg-transparent mt-[200px] cajaTitulo  ">
           {" "}
           <div className="contenedor">
             <ul className="textoAnimado">
