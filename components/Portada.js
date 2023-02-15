@@ -29,6 +29,7 @@ const Portada = () => {
             autoPlay={true}
             loop={true}
             controls={false}
+            webkit-playsinline="true"
             playsInline
             muted="true"
             alt="All the devices"
