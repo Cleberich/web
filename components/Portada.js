@@ -27,12 +27,11 @@ const Portada = () => {
           <video
             className="w-[100%] h-[705px] -mt-[5px]"
             playsInline={true}
-            controls={false}
             loop
             muted
             autoPlay={true}
             alt="All the devices"
-            src="/img/fond.mp4"
+            src="/img/mobile.mp4"
           />
         </div>
 
