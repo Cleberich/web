@@ -40,7 +40,7 @@ const Footer = () => {
             alt="Actitud Logo"
           />
           <p className="text-white  -mt-12 font-light text-xs">
-            contacto@actitudigital.com
+            lucia@actitudigital.com
           </p>
           <div className="flex justify-left mt-2"></div>
         </div>
