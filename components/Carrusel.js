@@ -19,7 +19,7 @@ const Carrusel = () => {
             clickable: true,
           }}
           modules={[Autoplay, Pagination]}
-          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
           className="mySwiper"
         >
           <SwiperSlide>
