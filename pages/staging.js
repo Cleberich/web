@@ -1,13 +1,14 @@
 import Image from "next/image";
 const staging = () => {
   return (
-    <iframe
-      src="https://drive.google.com/file/d/1p9mJwKLJ9P7Qw_0O5RdZkBoN4NOSMAAl/preview"
-      className="w-full h-screen"
-      autoPlay
-      allowFullScreen
-      muted
-    ></iframe>
+    <div>
+      {" "}
+      <img
+        className="w-[100%] h-[705px] -mt-[5px]"
+        alt="All the devices"
+        src="/img/na.gif"
+      />
+    </div>
   );
 };
 
