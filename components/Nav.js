@@ -17,7 +17,7 @@ const Nav = () => {
           <div className="container flex flex-wrap items-center justify-between mx-auto ">
             <div className="">
               <Link href="/" className="flex items-center">
-                <Image
+                <img
                   width={100}
                   height={100}
                   src="/img/logonuevo.webp"

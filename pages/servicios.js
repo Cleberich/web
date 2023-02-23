@@ -15,7 +15,7 @@ export default function servicios() {
     <>
       <Layout2>
         <video
-          className="w-full  fixed top-0 object-cover "
+          className="w-full  fixed top-0 object-cover portadaDesktop"
           playsInline
           loop
           muted
@@ -23,6 +23,11 @@ export default function servicios() {
           alt="All the devices"
           src="/img/video.mp4"
           type="video/mp4"
+        />
+        <img
+          className="w-full  fixed top-0 object-cover portadaCelular"
+          alt="All the devices"
+          src="/img/videoportada.gif"
         />
 
         <script src="https://player.vimeo.com/api/player.js"></script>
