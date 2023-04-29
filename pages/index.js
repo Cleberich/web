@@ -394,11 +394,7 @@ export default function Home() {
             loading="lazy"
           ></iframe>
         </div> */}
-        <div
-          className=" relative md:bg-white bg-black md:hover:bg-transparent  text-white  md:text-black md:hover:text-white transition-colors"
-          onMouseOver={() => setCambiarFonto(true)}
-          onMouseOut={() => setCambiarFonto(false)}
-        >
+        <div className=" relative md:bg-white bg-black   text-white  md:text-black transition-colors">
           <h2 className="text-center  font-extrabold text-5xl pt-24 ">
             Clientes
           </h2>
