@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useAuth } from "../../hooks/useAuth";
-import Listado from "../../components/listado";
+import Listado from "../../components/Listado";
 
 export default function consulta() {
   const auth = useAuth();
