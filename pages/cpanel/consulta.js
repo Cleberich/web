@@ -10,11 +10,11 @@ export default function consulta() {
   const { contactados, user, logout } = useAuth();
   const [data, setData] = useState("");
   const getData = () => {
-    console.log(user);
+    console.log(user?.email);
     return localStorage.getItem("logeado");
   };
   useEffect(() => {
-    setData(getData());
+    getData();
     if (user == null) {
       router.push("/cpanel");
     }

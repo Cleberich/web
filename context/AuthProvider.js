@@ -42,9 +42,8 @@ const AuthProvider = ({ children }) => {
     const activo = onAuthStateChanged(auth, (currentUser) => {
       if (!currentUser) {
         console.log("no hay usuario");
-        setuser("/");
+        setuser("");
       } else {
-        console.log(user?.email);
         router.push("/cpanel/consulta");
         return setuser(currentUser);
       }

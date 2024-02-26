@@ -1,19 +1,11 @@
 import { useAuth } from "../../hooks/useAuth";
-import { useRouter } from "next/router";
 
 export default function Home() {
-  const router = useRouter();
   const auth = useAuth();
 
   const handleGoogle = (e) => {
     e.preventDefault();
-    try {
-      auth.loginWithGoogle();
-    } catch (error) {
-      console.log(error);
-    } finally {
-      router.push("/cpanel/consulta");
-    }
+    auth.loginWithGoogle();
   };
 
   return (
