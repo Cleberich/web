@@ -2,16 +2,22 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useAuth } from "../../hooks/useAuth";
 import Listado from "../../components/Listado";
+import { useRouter } from "next/router";
 
 export default function consulta() {
   const auth = useAuth();
+  const router = useRouter();
   const { contactados, user, logout } = useAuth();
   const [data, setData] = useState("");
   const getData = () => {
+    console.log(user);
     return localStorage.getItem("logeado");
   };
   useEffect(() => {
     setData(getData());
+    if (user == null) {
+      router.push("/cpanel");
+    }
   }, []);
 
   const handleSalir = () => {
