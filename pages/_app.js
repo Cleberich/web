@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import { ActitudProvider } from "../context/ActitudProvider";
+import { AuthProvider } from "../context/AuthProvider";
 import { useEffect, useState } from "react";
 export default function App({ Component, pageProps }) {
   const [paginaLista, setPaginaLista] = useState(false);
@@ -7,8 +7,8 @@ export default function App({ Component, pageProps }) {
     setPaginaLista(true);
   }, []);
   return paginaLista ? (
-    <ActitudProvider>
+    <AuthProvider>
       <Component {...pageProps} />
-    </ActitudProvider>
+    </AuthProvider>
   ) : null;
 }

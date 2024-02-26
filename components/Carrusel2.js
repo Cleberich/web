@@ -47,26 +47,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="animate-pulse">
-              <img
-                src={
-                  cambiarFondo ? "/img/logos/4negro.webp" : "/img/logos/4.webp"
-                }
-                alt="logos de clientes"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="animate-pulse">
-              <img
-                src={
-                  cambiarFondo ? "/img/logos/5negro.webp" : "/img/logos/5.webp"
-                }
-                alt="logos de clientes"
-              />
-            </div>
-          </SwiperSlide>
+
           <SwiperSlide>
             <div className="animate-pulse">
               <img
@@ -125,16 +106,7 @@ const Carrusel2 = ({ cambiarFondo }) => {
               <img src={"/img/logos/3negro.webp"} alt="logos de clientes" />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="animate-pulse">
-              <img src={"/img/logos/4negro.webp"} alt="logos de clientes" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="animate-pulse">
-              <img src={"/img/logos/5negro.webp"} alt="logos de clientes" />
-            </div>
-          </SwiperSlide>
+
           <SwiperSlide>
             <div className="animate-pulse">
               <img src={"/img/logos/6negro.webp"} alt="logos de clientes" />

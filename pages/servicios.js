@@ -1,11 +1,11 @@
 import CardServicos from "../components/CardServicos";
 import Layout2 from "../components/Layout2";
-import useActitud from "../hooks/useActitud";
+import useAuth from "../hooks/useAuth";
 import { useState, useEffect } from "react";
 import "animate.css";
 
 export default function servicios() {
-  const { servicios } = useActitud();
+  const { servicios, contactados } = useAuth();
   const [animacion, setAnimacion] = useState(true);
   setTimeout(() => {
     setAnimacion(true);

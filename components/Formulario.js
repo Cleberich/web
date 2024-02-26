@@ -2,8 +2,11 @@ import { useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../services/firebase";
 import SendMail from "./SendMail";
+import { formatearFecha } from "../helpers/fecha";
+import { useAuth } from "../hooks/useAuth";
 
 const Formulario = ({ estilos }) => {
+  const { obtenerContactados, contactados } = useAuth();
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
   const [msg, setMsg] = useState("");
@@ -11,9 +14,12 @@ const Formulario = ({ estilos }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    const fechaComun = Date.now();
+    const fecha = formatearFecha(fechaComun);
+    let i = contactados.length;
+    const indice = i++;
     try {
-      const datos = { nombre, telefono, msg };
+      const datos = { nombre, telefono, msg, fecha, indice };
       const da = collection(db, "prospectos");
       await addDoc(da, datos);
       SendMail(nombre, telefono, msg);
@@ -24,6 +30,7 @@ const Formulario = ({ estilos }) => {
       setTimeout(() => {
         setEnviado(false);
       }, [2500]);
+      obtenerContactados();
     }
   };
 
