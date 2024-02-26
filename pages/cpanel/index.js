@@ -10,31 +10,14 @@ export default function Home() {
   };
 
   return (
-    <div
-      className={
-        denegado
-          ? "bg-yellow-400 w-full h-screen grid place-content-center items-center"
-          : "bg-[#1a047d] w-full h-screen grid place-content-center items-center"
-      }
-    >
-      <div
-        className={
-          denegado
-            ? "bg-red-500 rounded-[20px] w-[100%] md:w-[500px] h-[350px] mx-auto shadow-xl"
-            : "bg-[#ffffff] rounded-[20px] w-[100%] md:w-[500px] h-[350px] mx-auto shadow-xl"
-        }
-      >
+    <div className="bg-[#1a047d] w-full h-screen grid place-content-center items-center">
+      <div className="bg-[#ffffff] rounded-[20px] w-[100%] md:w-[500px] h-[350px] mx-auto shadow-xl">
         {" "}
         <div className="flex flex-col justify-center px-14">
-          {denegado ? (
-            <h1 className="text-[#ffffff] text-3xl font-semibold mt-24 text-center">
-              Lo siento ya no tienes acceso a la aplicacion
-            </h1>
-          ) : (
-            <h1 className="text-[#171819] text-3xl font-semibold mt-12 text-center">
-              Inicia sesión
-            </h1>
-          )}
+          <h1 className="text-[#171819] text-3xl font-semibold mt-12 text-center">
+            Inicia sesión
+          </h1>
+
           {denegado == false && (
             <>
               <h2 className="text-[#191e21] text-md md:text-xl font-semibold mt-1 text-center">
