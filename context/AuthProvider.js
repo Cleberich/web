@@ -43,7 +43,6 @@ const AuthProvider = ({ children }) => {
       if (!currentUser) {
         console.log("no hay usuario");
         setuser("");
-        router.push("/cpanel");
       } else {
         return setuser(currentUser);
       }
