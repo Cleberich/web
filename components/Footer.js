@@ -70,7 +70,7 @@ const Footer = () => {
       <div className="my-3">
         <hr className="mx-32 "></hr>
         <p className="text-white text-xs my-2 text-center pb-12">
-          © Todos los derechos reservados 2024 Nahuel Geille
+          © Todos los derechos reservados 2024
         </p>
       </div>
     </footer>

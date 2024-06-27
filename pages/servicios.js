@@ -1,11 +1,16 @@
 import CardServicos from "../components/CardServicos";
+import Card1 from "../components/Card1";
+import Card2 from "../components/Card2";
+import Card3 from "../components/Card3";
+import Card4 from "../components/Card4";
+import Card5 from "../components/Card5";
+import Card6 from "../components/Card6";
 import Layout2 from "../components/Layout2";
 import useAuth from "../hooks/useAuth";
 import { useState, useEffect } from "react";
 import "animate.css";
 
 export default function servicios() {
-  const { servicios, contactados } = useAuth();
   const [animacion, setAnimacion] = useState(true);
   setTimeout(() => {
     setAnimacion(true);
@@ -41,9 +46,12 @@ export default function servicios() {
 
           <main className="p-5 md:p-24 flex bg-transparent flex-wrap gap-2 justify-center relative top-32 md:top-32">
             {" "}
-            {servicios.map((service) => (
-              <CardServicos key={service.id} service={service} />
-            ))}
+            <Card1 />
+            <Card2 />
+            <Card3 />
+            <Card4 />
+            <Card5 />
+            <Card6 />
           </main>
         </section>
       </Layout2>

@@ -37,27 +37,16 @@ const AuthProvider = ({ children }) => {
     setServicios(adapted);
   };
   useEffect(() => {
-    obtenerServicos();
     obtenerContactados();
-    const activo = onAuthStateChanged(auth, (currentUser) => {
-      if (!currentUser) {
-        console.log("no hay usuario");
-        setuser("");
-      } else {
-        router.push("/cpanel/consulta");
-        return setuser(currentUser);
-      }
-      return () => activo();
-    });
   }, []);
   const loginWithGoogle = async () => {
     try {
       const responseGoogle = new GoogleAuthProvider();
       localStorage.setItem("logeado", responseGoogle);
       await signInWithPopup(auth, responseGoogle);
-      router.push("/cpanel/consulta");
+      router.push("/");
     } catch (error) {
-      router.push("/cpanel");
+      router.push("/cpnel");
       setdenegado(true);
     }
   };
@@ -69,7 +58,7 @@ const AuthProvider = ({ children }) => {
       console.log("error al hacer logout");
     } finally {
       setdenegado(false);
-      router.push("/cpanel");
+      router.push("/");
     }
   };
 
@@ -93,13 +82,8 @@ const AuthProvider = ({ children }) => {
   return (
     <AuthContext.Provider
       value={{
-        servicios,
         contactados,
         obtenerContactados,
-        loginWithGoogle,
-        user,
-        denegado,
-        logout,
       }}
     >
       {children}
